@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/static/css/main.86f544b8.css",
-    "main.js": "/static/js/main.fc734f49.js",
-    "static/media/tareaLogo.png": "/static/media/tareaLogo.76069a026fc0494a2008.png",
-    "index.html": "/index.html",
-    "main.86f544b8.css.map": "/static/css/main.86f544b8.css.map",
-    "main.fc734f49.js.map": "/static/js/main.fc734f49.js.map"
+    "main.css": "/lista-tareas/static/css/main.86f544b8.css",
+    "main.js": "/lista-tareas/static/js/main.8b15c323.js",
+    "static/media/tareaLogo.png": "/lista-tareas/static/media/tareaLogo.76069a026fc0494a2008.png",
+    "index.html": "/lista-tareas/index.html",
+    "main.86f544b8.css.map": "/lista-tareas/static/css/main.86f544b8.css.map",
+    "main.8b15c323.js.map": "/lista-tareas/static/js/main.8b15c323.js.map"
   },
   "entrypoints": [
     "static/css/main.86f544b8.css",
-    "static/js/main.fc734f49.js"
+    "static/js/main.8b15c323.js"
   ]
 }
