@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/static/css/main.86f544b8.css",
+    "main.js": "/static/js/main.fc734f49.js",
+    "static/media/tareaLogo.png": "/static/media/tareaLogo.76069a026fc0494a2008.png",
+    "index.html": "/index.html",
+    "main.86f544b8.css.map": "/static/css/main.86f544b8.css.map",
+    "main.fc734f49.js.map": "/static/js/main.fc734f49.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.86f544b8.css",
+    "static/js/main.fc734f49.js"
+  ]
+}
