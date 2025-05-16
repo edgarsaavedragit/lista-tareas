@@ -1,0 +1,80 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, 
+body {
+  color: white;
+  background-color: #0e7596;
+  font-family: Lato, sans-serif;
+  margin-top: 40px;
+}
+
+h1 {
+  color: #1b1b32;
+  font-size: 25px;
+  font-family: Roboto, sans-serif;
+  text-align: center;
+  margin: 20px 0;
+}
+
+.aplicacion-tareas {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Logo de tarea */
+
+.tarea-logo-contenedor {
+  width: 100%;
+  margin: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.tarea-logo {
+  width: 400px;
+  height: 50px;
+}
+
+/* Listas de Tareas */
+
+.tareas-lista-principal {
+  width: 600px;
+  min-height: 500px;
+  background-color: #b7e2ee;
+  padding: 25px;
+  margin: 10px;
+  border-radius: 26px;
+}
+
+@media screen and (max-width: 768px) {
+  .aplicacion-tareas {
+    padding: 0 10px; /* Evita que los elementos toquen los bordes de la pantalla */
+  }
+
+  .tareas-lista-principal {
+    width: 100%; /* Ocupa todo el ancho disponible */
+    max-width: 350px; /* Limita el ancho máximo para mejor legibilidad */
+    padding: 15px; /* Reduce el padding interno */
+    margin: 10px auto; /* Centrado automático */
+  }
+
+  /* Ajusta el área de entrada de texto (input) */
+  .tarea-formulario input {
+    width: 100% !important; /* Fuerza el ancho completo */
+    padding: 10px !important; /* Ajusta el espacio interno */
+    box-sizing: border-box; /* Evita desbordamientos */
+  }
+
+  /* Centra el título y botones */
+  h1, .tarea-formulario, .tarea-logo-contenedor {
+    text-align: center;
+    width: 100%;
+  }
+}
